@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 ## Overview of Analysis
-In this analysis, credit data from more than 68,000 individuals was analyzed to determine the best Python machine learning model that predicts credit risk using the various data preprocessing methods and machine learning algorithms below:
+In this analysis, credit data from more than 68,000 loan applicants was analyzed to determine the best Python machine learning model that predicts whether an individual is a high credit risk or low credit risk using the various data preprocessing methods and machine learning algorithms below:
 * Oversampling with **imbalanced-learn**'s RandomOverSampler algorithm and performing a logistic regression with **scikit-learn**.
 * Oversampling with **imbalanced-learn**'s SMOTE algorithm and performing a logistic regression with **scikit-learn**.
 * Undersampling using **imbalanced-learn**'s ClusterCentroid algorithm and performing a logistic regression with **scikit-learn**.
