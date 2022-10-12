@@ -7,7 +7,7 @@ In this analysis, credit data from more than 68,000 loan applicants was analyzed
 * Using a combinatorial approach of over- and undersampling using **imbalanced-learn**'s SMOTEENN algorithm and performing a logistic regression with **scikit-learn**.
 * Two machine learning models that reduce bias were also employed: **imbalanced-learn**'s BalancedRandomForestClassifier and EasyEnsembleClassifier.
 ## Results
-Each of the machine learning models implemented had their predictions assessed for accuracy, predictive value (pre), recall (rec), and F1-score (f1) (amongst other statistical assessments). A confusion matrix was also created to assess each model.<br/>
+Each of the machine learning models implemented had their predictions assessed for accuracy, predictive value (pre), recall (rec), and F1-score (f1) (amongst other statistical assessments). A confusion matrix was also created to assess each model. A prediction of 0 represents high credit risk, and a prediction of 1 represents a low credit risk.<br/>
 **1)** Oversampling with **imbalanced-learn**'s RandomOverSampler and  logistic regression with **scikit-learn**:<br/>
 
 * Accuracy of model:<br/>
