@@ -35,6 +35,7 @@ Each of the machine learning models implemented had their predictions assessed f
 * Predictive value (pre), recall (rec), and F1-score (f1):<br/>
 
     ![SMOTE_classification](./images/smote_classification.png)<br/>
+    
 **3)** Undersampling using **imbalanced-learn**'s ClusterCentroid algorithm and logistic regression with **scikit-learn**:
 
 * Accuracy of model:<br/>
