@@ -122,4 +122,6 @@ The following list is the average recall performance for all ML algorithms (**ou
 5) Combinatorial approach of over- and undersampling using imbalanced-learn's SMOTEENN algorithm and logistic regression with scikit-learn: **0.71**
 6) imbalanced-learn's ClusterCentroid algorithm and logistic regression with scikit-learn: **0.66**<br/>
 
-The F1-scores showed a similar trend with the EasyEnsembleClassifier algorithm having the highest and the ClusteredCentroids having the lowest. 
+The F1-scores showed a similar trend with the EasyEnsembleClassifier algorithm having the highest and the ClusteredCentroids having the lowest. <br/>
+
+With these results, the best model to implement in determining credit risk of loan applicants is imbalanced-learn's EasyEnsembleClassifier.
